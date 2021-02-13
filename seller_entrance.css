@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
 }
 
-hr {
+.nav-bar hr {
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -175,8 +175,15 @@ div p {
   opacity: 60%;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 30px;
   font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
+}
+
+.boxes {
+  background-color: #ffb84d;
+  padding: 50px;
+  border-radius: 5px;
 }
 
 
@@ -262,7 +269,7 @@ div p {
     font-size: 20px;
   }
 
-  hr {
+  .navbar hr {
     display: none;
   }
 
